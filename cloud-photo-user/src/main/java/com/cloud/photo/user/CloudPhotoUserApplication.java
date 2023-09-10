@@ -9,6 +9,5 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 public class CloudPhotoUserApplication {
     public static void main(String[] args) {
         SpringApplication.run(CloudPhotoUserApplication.class, args);
-
     }
 }

@@ -10,6 +10,7 @@
         <artifactId>cloud-photo-g</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
+
     <artifactId>cloud-photo-user</artifactId>
 
     <properties>
