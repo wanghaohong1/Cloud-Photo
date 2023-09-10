@@ -1,0 +1,28 @@
+spring:
+  cloud:
+    # nacos config
+    nacos:
+#      注册与发现
+      discovery:
+#        nacos账号和密码
+        username: nacos
+        password: nacos
+#        本机nacos访问地址
+        server-addr: 127.0.0.1:8848
+#        指定服务注册到哪个命名空间
+  redis:
+    host: 127.0.0.1
+    port: 6379
+  application:
+    name: cloud-photo-user
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/photo?zeroDateTimeBehavior=convertToNull&useSSL=false&allowMultiQueries=true
+    username: root
+    password: qaz147896325
+    driver-class-name: com.mysql.jdbc.Driver
+
+# mybatis-plus配置
+
+#服务端口
+server:
+  port: 9008
