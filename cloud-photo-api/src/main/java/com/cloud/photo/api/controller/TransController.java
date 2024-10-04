@@ -31,7 +31,6 @@ public class TransController {
 
     @PostMapping("/getTransList")
     public ResultBody getTransList(){
-
         //拿到用户信息
         UserBo userBo = MyUtils.getUserInfo();
         if (userBo == null){

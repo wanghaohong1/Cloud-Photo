@@ -25,7 +25,6 @@ public class PutuploadController {
     @Autowired
     PutuploadService putuploadService;
 
-
     /**
      * 获取上传地址
      * @return 每一张图片一个上传地址
@@ -75,6 +74,5 @@ public class PutuploadController {
         // 业务实现
         return putuploadService.commitUpload(bo);
     }
-
 
 }

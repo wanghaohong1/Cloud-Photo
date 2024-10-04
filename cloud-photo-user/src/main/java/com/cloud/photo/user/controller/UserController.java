@@ -83,5 +83,4 @@ public class UserController {
         boolean saveOrUpdate = userService.saveOrUpdate(user);
         return saveOrUpdate ? ResultBody.success() : ResultBody.error(CommonEnum.LOGIN_FAIL);
     }
-
 }
